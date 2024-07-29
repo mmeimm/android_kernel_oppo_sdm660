@@ -2,6 +2,8 @@ name: Only Build OPPO R11 Kernel and AnyKernel3
 on:
   workflow_call:
   workflow_dispatch:
+  permissions:
+     contents: write
 
 jobs:
   build:
