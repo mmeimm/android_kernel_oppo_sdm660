@@ -15,7 +15,7 @@
 #include <soc/qcom/scm.h>
 #include <linux/pm_opp.h>
 #include <linux/clk/msm-clk.h>
-
+#include "subsystem.h"
 #include "adreno.h"
 #include "a5xx_reg.h"
 #include "adreno_a5xx.h"
